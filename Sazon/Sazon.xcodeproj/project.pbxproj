@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A00B9DE0EF7669C3416F0AA /* Pods_Sazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C28D0DC18F54A2DA71E54B4 /* Pods_Sazon.framework */; };
+		1966AEF6007FA04EE87BE3BF /* Pods_SazonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504ABCF2C7183B8F37F94EB /* Pods_SazonTests.framework */; };
+		47BE5E3A24F487E400F72ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE5E3924F487E400F72ABC /* AppDelegate.swift */; };
+		47BE5E3C24F487E400F72ABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE5E3B24F487E400F72ABC /* SceneDelegate.swift */; };
+		47BE5E3E24F487E400F72ABC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE5E3D24F487E400F72ABC /* FirstViewController.swift */; };
+		47BE5E4024F487E400F72ABC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE5E3F24F487E400F72ABC /* SecondViewController.swift */; };
+		47BE5E4524F487E500F72ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BE5E4424F487E500F72ABC /* Assets.xcassets */; };
+		47BE5E4824F487E500F72ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BE5E4624F487E500F72ABC /* LaunchScreen.storyboard */; };
+		47BE5E5324F487E600F72ABC /* SazonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE5E5224F487E600F72ABC /* SazonTests.swift */; };
+		47BE5E5E24F487E600F72ABC /* SazonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BE5E5D24F487E600F72ABC /* SazonUITests.swift */; };
+		DD563845C5310FF0BE002519 /* Pods_Sazon_SazonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2822DE86AB13D26AD3DF8 /* Pods_Sazon_SazonUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47BE5E4F24F487E600F72ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47BE5E2E24F487E400F72ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BE5E3524F487E400F72ABC;
+			remoteInfo = Sazon;
+		};
+		47BE5E5A24F487E600F72ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47BE5E2E24F487E400F72ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BE5E3524F487E400F72ABC;
+			remoteInfo = Sazon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EFE68B39DBF2A1CAE1196E /* Pods-Sazon-SazonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sazon-SazonUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C28D0DC18F54A2DA71E54B4 /* Pods_Sazon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sazon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DDCCC2DB5FD5802858C764 /* Pods-Sazon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sazon.release.xcconfig"; path = "Target Support Files/Pods-Sazon/Pods-Sazon.release.xcconfig"; sourceTree = "<group>"; };
+		47BE5E3624F487E400F72ABC /* Sazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BE5E3924F487E400F72ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47BE5E3B24F487E400F72ABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47BE5E3D24F487E400F72ABC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		47BE5E3F24F487E400F72ABC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		47BE5E4424F487E500F72ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47BE5E4724F487E500F72ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47BE5E4924F487E500F72ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BE5E4E24F487E600F72ABC /* SazonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SazonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BE5E5224F487E600F72ABC /* SazonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SazonTests.swift; sourceTree = "<group>"; };
+		47BE5E5424F487E600F72ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BE5E5924F487E600F72ABC /* SazonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SazonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BE5E5D24F487E600F72ABC /* SazonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SazonUITests.swift; sourceTree = "<group>"; };
+		47BE5E5F24F487E600F72ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D26FE603BFAEA8463D8A967 /* Pods-Sazon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sazon.debug.xcconfig"; path = "Target Support Files/Pods-Sazon/Pods-Sazon.debug.xcconfig"; sourceTree = "<group>"; };
+		7627C6AFC16D28771FD1C2DC /* Pods-SazonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SazonTests.release.xcconfig"; path = "Target Support Files/Pods-SazonTests/Pods-SazonTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEE2822DE86AB13D26AD3DF8 /* Pods_Sazon_SazonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sazon_SazonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504ABCF2C7183B8F37F94EB /* Pods_SazonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SazonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96500E2206C83A67BD3DB80 /* Pods-SazonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SazonTests.debug.xcconfig"; path = "Target Support Files/Pods-SazonTests/Pods-SazonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBEF46EA358CF9336B279171 /* Pods-Sazon-SazonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sazon-SazonUITests.release.xcconfig"; path = "Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47BE5E3324F487E400F72ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A00B9DE0EF7669C3416F0AA /* Pods_Sazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE5E4B24F487E600F72ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1966AEF6007FA04EE87BE3BF /* Pods_SazonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE5E5624F487E600F72ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD563845C5310FF0BE002519 /* Pods_Sazon_SazonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD92E91487E2DD4D1ACF39D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D26FE603BFAEA8463D8A967 /* Pods-Sazon.debug.xcconfig */,
+				43DDCCC2DB5FD5802858C764 /* Pods-Sazon.release.xcconfig */,
+				05EFE68B39DBF2A1CAE1196E /* Pods-Sazon-SazonUITests.debug.xcconfig */,
+				EBEF46EA358CF9336B279171 /* Pods-Sazon-SazonUITests.release.xcconfig */,
+				E96500E2206C83A67BD3DB80 /* Pods-SazonTests.debug.xcconfig */,
+				7627C6AFC16D28771FD1C2DC /* Pods-SazonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47BE5E2D24F487E400F72ABC = {
+			isa = PBXGroup;
+			children = (
+				47BE5E3824F487E400F72ABC /* Sazon */,
+				47BE5E5124F487E600F72ABC /* SazonTests */,
+				47BE5E5C24F487E600F72ABC /* SazonUITests */,
+				47BE5E3724F487E400F72ABC /* Products */,
+				1BD92E91487E2DD4D1ACF39D /* Pods */,
+				A00AEF56569E3AF776CDD097 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47BE5E3724F487E400F72ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47BE5E3624F487E400F72ABC /* Sazon.app */,
+				47BE5E4E24F487E600F72ABC /* SazonTests.xctest */,
+				47BE5E5924F487E600F72ABC /* SazonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47BE5E3824F487E400F72ABC /* Sazon */ = {
+			isa = PBXGroup;
+			children = (
+				47BE5E3924F487E400F72ABC /* AppDelegate.swift */,
+				47BE5E3B24F487E400F72ABC /* SceneDelegate.swift */,
+				47BE5E3D24F487E400F72ABC /* FirstViewController.swift */,
+				47BE5E3F24F487E400F72ABC /* SecondViewController.swift */,
+				47BE5E4424F487E500F72ABC /* Assets.xcassets */,
+				47BE5E4624F487E500F72ABC /* LaunchScreen.storyboard */,
+				47BE5E4924F487E500F72ABC /* Info.plist */,
+			);
+			path = Sazon;
+			sourceTree = "<group>";
+		};
+		47BE5E5124F487E600F72ABC /* SazonTests */ = {
+			isa = PBXGroup;
+			children = (
+				47BE5E5224F487E600F72ABC /* SazonTests.swift */,
+				47BE5E5424F487E600F72ABC /* Info.plist */,
+			);
+			path = SazonTests;
+			sourceTree = "<group>";
+		};
+		47BE5E5C24F487E600F72ABC /* SazonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47BE5E5D24F487E600F72ABC /* SazonUITests.swift */,
+				47BE5E5F24F487E600F72ABC /* Info.plist */,
+			);
+			path = SazonUITests;
+			sourceTree = "<group>";
+		};
+		A00AEF56569E3AF776CDD097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C28D0DC18F54A2DA71E54B4 /* Pods_Sazon.framework */,
+				AEE2822DE86AB13D26AD3DF8 /* Pods_Sazon_SazonUITests.framework */,
+				B504ABCF2C7183B8F37F94EB /* Pods_SazonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47BE5E3524F487E400F72ABC /* Sazon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BE5E6224F487E600F72ABC /* Build configuration list for PBXNativeTarget "Sazon" */;
+			buildPhases = (
+				82D9A6CE9695338C021B151C /* [CP] Check Pods Manifest.lock */,
+				47BE5E3224F487E400F72ABC /* Sources */,
+				47BE5E3324F487E400F72ABC /* Frameworks */,
+				47BE5E3424F487E400F72ABC /* Resources */,
+				93C89285F63DD41BC475B953 /* [CP] Embed Pods Frameworks */,
+				2F9070D53C9E37396248A951 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sazon;
+			productName = Sazon;
+			productReference = 47BE5E3624F487E400F72ABC /* Sazon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47BE5E4D24F487E600F72ABC /* SazonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BE5E6524F487E600F72ABC /* Build configuration list for PBXNativeTarget "SazonTests" */;
+			buildPhases = (
+				4195F78399D16320B7315443 /* [CP] Check Pods Manifest.lock */,
+				47BE5E4A24F487E600F72ABC /* Sources */,
+				47BE5E4B24F487E600F72ABC /* Frameworks */,
+				47BE5E4C24F487E600F72ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47BE5E5024F487E600F72ABC /* PBXTargetDependency */,
+			);
+			name = SazonTests;
+			productName = SazonTests;
+			productReference = 47BE5E4E24F487E600F72ABC /* SazonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47BE5E5824F487E600F72ABC /* SazonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BE5E6824F487E600F72ABC /* Build configuration list for PBXNativeTarget "SazonUITests" */;
+			buildPhases = (
+				6E92ED0129495B2F21413290 /* [CP] Check Pods Manifest.lock */,
+				47BE5E5524F487E600F72ABC /* Sources */,
+				47BE5E5624F487E600F72ABC /* Frameworks */,
+				47BE5E5724F487E600F72ABC /* Resources */,
+				45AE41BC5381B43FB0FBA81E /* [CP] Embed Pods Frameworks */,
+				0B9A44189A50CB8ACFEE9A3F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47BE5E5B24F487E600F72ABC /* PBXTargetDependency */,
+			);
+			name = SazonUITests;
+			productName = SazonUITests;
+			productReference = 47BE5E5924F487E600F72ABC /* SazonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47BE5E2E24F487E400F72ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "juan ocampo";
+				TargetAttributes = {
+					47BE5E3524F487E400F72ABC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					47BE5E4D24F487E600F72ABC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 47BE5E3524F487E400F72ABC;
+					};
+					47BE5E5824F487E600F72ABC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 47BE5E3524F487E400F72ABC;
+					};
+				};
+			};
+			buildConfigurationList = 47BE5E3124F487E400F72ABC /* Build configuration list for PBXProject "Sazon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47BE5E2D24F487E400F72ABC;
+			productRefGroup = 47BE5E3724F487E400F72ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47BE5E3524F487E400F72ABC /* Sazon */,
+				47BE5E4D24F487E600F72ABC /* SazonTests */,
+				47BE5E5824F487E600F72ABC /* SazonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47BE5E3424F487E400F72ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BE5E4824F487E500F72ABC /* LaunchScreen.storyboard in Resources */,
+				47BE5E4524F487E500F72ABC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE5E4C24F487E600F72ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE5E5724F487E600F72ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B9A44189A50CB8ACFEE9A3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F9070D53C9E37396248A951 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon/Pods-Sazon-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon/Pods-Sazon-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sazon/Pods-Sazon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4195F78399D16320B7315443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SazonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45AE41BC5381B43FB0FBA81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sazon-SazonUITests/Pods-Sazon-SazonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E92ED0129495B2F21413290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sazon-SazonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D9A6CE9695338C021B151C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sazon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C89285F63DD41BC475B953 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon/Pods-Sazon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sazon/Pods-Sazon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sazon/Pods-Sazon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47BE5E3224F487E400F72ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BE5E4024F487E400F72ABC /* SecondViewController.swift in Sources */,
+				47BE5E3E24F487E400F72ABC /* FirstViewController.swift in Sources */,
+				47BE5E3A24F487E400F72ABC /* AppDelegate.swift in Sources */,
+				47BE5E3C24F487E400F72ABC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE5E4A24F487E600F72ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BE5E5324F487E600F72ABC /* SazonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE5E5524F487E600F72ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BE5E5E24F487E600F72ABC /* SazonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47BE5E5024F487E600F72ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47BE5E3524F487E400F72ABC /* Sazon */;
+			targetProxy = 47BE5E4F24F487E600F72ABC /* PBXContainerItemProxy */;
+		};
+		47BE5E5B24F487E600F72ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47BE5E3524F487E400F72ABC /* Sazon */;
+			targetProxy = 47BE5E5A24F487E600F72ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47BE5E4624F487E500F72ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BE5E4724F487E500F72ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47BE5E6024F487E600F72ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47BE5E6124F487E600F72ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47BE5E6324F487E600F72ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D26FE603BFAEA8463D8A967 /* Pods-Sazon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sazon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ocampo.Sazon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47BE5E6424F487E600F72ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DDCCC2DB5FD5802858C764 /* Pods-Sazon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sazon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ocampo.Sazon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47BE5E6624F487E600F72ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96500E2206C83A67BD3DB80 /* Pods-SazonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SazonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ocampo.SazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sazon.app/Sazon";
+			};
+			name = Debug;
+		};
+		47BE5E6724F487E600F72ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7627C6AFC16D28771FD1C2DC /* Pods-SazonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SazonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ocampo.SazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sazon.app/Sazon";
+			};
+			name = Release;
+		};
+		47BE5E6924F487E600F72ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EFE68B39DBF2A1CAE1196E /* Pods-Sazon-SazonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SazonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ocampo.SazonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sazon;
+			};
+			name = Debug;
+		};
+		47BE5E6A24F487E600F72ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEF46EA358CF9336B279171 /* Pods-Sazon-SazonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SazonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ocampo.SazonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sazon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47BE5E3124F487E400F72ABC /* Build configuration list for PBXProject "Sazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BE5E6024F487E600F72ABC /* Debug */,
+				47BE5E6124F487E600F72ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BE5E6224F487E600F72ABC /* Build configuration list for PBXNativeTarget "Sazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BE5E6324F487E600F72ABC /* Debug */,
+				47BE5E6424F487E600F72ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BE5E6524F487E600F72ABC /* Build configuration list for PBXNativeTarget "SazonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BE5E6624F487E600F72ABC /* Debug */,
+				47BE5E6724F487E600F72ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BE5E6824F487E600F72ABC /* Build configuration list for PBXNativeTarget "SazonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BE5E6924F487E600F72ABC /* Debug */,
+				47BE5E6A24F487E600F72ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47BE5E2E24F487E400F72ABC /* Project object */;
+}
